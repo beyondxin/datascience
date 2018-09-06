@@ -14,3 +14,5 @@ model.compile(loss = 'binary_crossentropy', optimizer = 'adam',metrics=['accurac
 model.fit(x,y,epochs = 1000,batch_size = 10)
 yp = model.predict_classes(x).reshape(len(y))
 model.evaluate(x,y)
+
+#测试测试
